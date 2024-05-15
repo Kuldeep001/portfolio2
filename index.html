@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width. intial-scale=1.0" />
+    <title>Kuldeep - Front End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preload" as="image" href="./assets/ " />
+    <link rel="preload" as="image" href="./assets/" />
+  </head>
+  <body class="black">
+    <header id="home" class="header">
+      <div class="container">
+        <a href="#" class="logo">Kuldeep</a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">Kuldeep</a>
+            <button class="navbar-close-btn" data-nav-toggler>
+              <i class="fa fa-window-close" style="color: #fdff00"></i>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+            <li>
+              <a href="#project" class="navbar-link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="theme-wrapper">
+            <button id="theme-btn" class="btn theme">Change Theme</button>
+          </div>
+        </nav>
+        <button class="nav-open-btn" data-nav-toggler>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <main>
+      <article>
+        <section class="section hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 title">Hi, I'm Kuldeep. Software Developer.</h1>
+              <p class="section-text">
+                I'm deeply passionate about the work I engage in.
+              </p>
+              <div class="social-icons-wrapper">
+                <i
+                  style="color: #f3b500"
+                  class="fa-brands fa-linkedin"
+                  onclick="location.href='https://in.linkedin.com/in/kuldeep-singh-chauhan-63b739173'"
+                >
+                </i>
+                <i
+                  style="color: #ea07b9"
+                  class="fa-brands fa-twitter"
+                  onclick="location.href='https://twitter.com/KuldeepSC01'"
+                ></i>
+                <i
+                  style="color: #02e9cf"
+                  class="fa-brands fa-github"
+                  onclick="location.href='https://github.com/Kuldeep001'"
+                ></i>
+                <i
+                  style="color: #ef7816"
+                  class="fa-regular fa-file"
+                  onclick="location.href='https://github.com/Kuldeep001'"
+                ></i>
+              </div>
+              <div class="btn-wrapper">
+                <button class="btn" onclick="location.href='./#project'">
+                  See My Works
+                </button>
+                <button class="btn" onclick="location.href='./#contact'">
+                  Contact Me
+                </button>
+              </div>
+            </div>
+            <figure class="hero-banner">
+              <img
+                src="./assets/My Photo.jpg"
+                width="350px"
+                height="3500px"
+                alt="Kuldeep"
+                class="w-101"
+              />
+            </figure>
+          </div>
+        </section>
+        <div class="divider"></div>
+        <section id="about" class="section about">
+          <div class="container">
+            <div class="wrapper">
+              <div class="left">
+                <h2 class="h2 section-title">My Skills</h2>
+                <p class="section-text">
+                  software developer with a strong foundation in technical
+                  proficiency and a passion for problem-solving. Skilled in
+                  programming languages, frameworks, and tools necessary for
+                  efficient software development. Possesses excellent
+                  communication and teamwork abilities, combined with meticulous
+                  attention to detail and a commitment to delivering
+                  high-quality, scalable solutions. Adept at adapting to new
+                  technologies and methodologies to meet project requirements
+                  and drive innovation. Seeking to leverage expertise in
+                  software development to contribute effectively to dynamic
+                  project teams and deliver impactful solutions to clients and
+                  end-users.
+                </p>
+              </div>
+              <ul class="progress-list">
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>HTML &nbsp; CSS &nbsp;JAVASCRIPT</p>
+                    <span class="span">100 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 100%; background-color: #f35100"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>React</p>
+                    <span class="span">80 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 80%; background-color: #ea07b9"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>My SQL</p>
+                    <span class="span">85 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 85%; background-color: #02e9cf"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>PHP</p>
+                    <span class="span">70 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #2ce822"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Version control (Git & Github)</p>
+                    <span class="span">95 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #ef1616"
+                    ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #f3b500" class="fa-solid fa-code"></i>
+                  </div>
+                  <h3 class="h4 card-title">Problem-Solving</h3>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #ea07b9" class="fa-solid fa-database"></i>
+                  </div>
+                  <h3 class="h4 card-title">Testing and Debugging</h3>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #02e9cf" class="fa-solid fa-file-code"></i>
+                  </div>
+                  <h3 class="h4 card-title">Documentation</h3>
+                </div>
+              </li>
+              <li>
+                <div class="about-card">
+                  <div class="card-icon">
+                    <i style="color: #ef7816" class="fa-brands fa-codepen"></i>
+                  </div>
+                  <h3 class="h4 card-title">
+                    Adaptability and Learning Agility
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section id="project" class="section project">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <h2 class="h2 section-title">Latest Projects</h2>
+                <p class="section-text">
+                  Check out some of my latest projects.
+                </p>
+              </div>
+              <button
+                class="btn"
+                onclick="location.href='https://github.com/Kuldeep001'"
+              >
+                View all my projects on GitHub
+              </button>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="project-card project-card-one">
+                  <div class="card-content">
+                    <p class="card-type">React App</p>
+                    <h3 class="h3 card-title">Weather-App</h3>
+                    <p class="card-text">
+                      weather app is a comprehensive tool designed to provide
+                      users with accurate and up-to-date weather information. It
+                      offers a user-friendly interface that allows users to
+                      easily access weather forecasts for their desired
+                      locations. The app provides detailed weather data,
+                      including temperature, humidity, wind speed, presented in
+                      a visually appealing manner.
+                    </p>
+                    <a
+                      href="https://kuldeep001.github.io/weather-app-react/"
+                      class="btn-text"
+                      style="color: #a07cc5"
+                      ><span class="span">See Project</span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/project-1.png"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="project-card project-card-two">
+                  <div class="card-content">
+                    <p class="card-type">React-App</p>
+                    <h3 class="h3 card-title">To do app</h3>
+                    <p class="card-text">
+                      TODO app is a task management tool designed to help users
+                      organize their daily activities efficiently. It offers a
+                      simple yet effective interface for creating, managing, and
+                      tracking tasks easily.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #3f78e0"
+                      ><span class="span">
+                        <!-- See Project -->
+                      </span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/project-2.png"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="project-card project-card-three">
+                  <div class="card-content">
+                    <p class="card-type">HTML &nbsp;CSS &nbsp;JAVASCRIPT</p>
+                    <h3 class="h3 card-title">Portfolio</h3>
+                    <p class="card-text">
+                      Portfolio website is a comprehensive showcase of your
+                      skills, accomplishments, and projects. It serves as a
+                      professional platform for presenting your work to
+                      potential clients, employers, or collaborators.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #7cb798"
+                      ><span class="span">
+                        <!-- See Project -->
+                      </span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/portfolio.jpg"
+                      width="650"
+                      height="50%"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="project-card project-card-four">
+                  <div class="card-content">
+                    <p class="card-type">React-Tailwind css-API</p>
+                    <h3 class="h3 card-title">FilmVault</h3>
+                    <p class="card-text">
+                      The FilmVault app is a comprehensive platform for movie
+                      enthusiasts to organize, discover, and enjoy their
+                      favorite films, while also facilitating community
+                      interaction and recommendation sharing among users.
+                    </p>
+                    <a href="#" class="btn-text" style="color: #d16b86"
+                      ><span class="span">
+                        <!-- See Project -->
+                      </span></a
+                    >
+                  </div>
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/filmvault.jpg"
+                      width="650"
+                      height="370"
+                      alt="Web-Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section id="contact" class="section contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content">
+                <div class="card-icon">
+                  <i style="font-size: 50px" class="fa-solid fa-envelope"></i>
+                </div>
+                <h2 class="h2 section-title">Let's Connect and Explore.</h2>
+                <p class="section-text">
+                  Please feel free to reach out to me if you're interested in
+                  collaborating in the future.
+                </p>
+              </div>
+
+              <form action="" method="post" class="contact-form">
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+                <textarea
+                  name="message"
+                  placeholder="Message *"
+                  required
+                  class="input-field"
+                ></textarea>
+                <button type="submit" class="btn">
+                  <a href="mailto:singhchauhank72@gmail.com"> Email </a>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-inner-container">
+              <p class="copyright">© 2024 Kuldeep. All rights reserved.</p>
+              <ul class="social-icons-wrapper">
+                <li>
+                  <a href="#" class="social-link">
+                    <i
+                      style="color: #f3b500"
+                      class="fa-brands fa-linkedin"
+                      onclick="location.href='https://in.linkedin.com/in/kuldeep-singh-chauhan-63b739173'"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i
+                      style="color: #ea07b9"
+                      class="fa-brands fa-twitter"
+                      onclick="location.href='https://twitter.com/KuldeepSC01'"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="social-link">
+                    <i
+                      style="color: #02e9cf"
+                      class="fa-brands fa-github"
+                      onclick="location.href='https://github.com/Kuldeep001'"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
